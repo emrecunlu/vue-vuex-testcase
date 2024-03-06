@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html,
+  body,
+  #app {
+    @apply h-full;
+  }
+
+  body {
+    @apply antialiased;
+  }
+}
+
+.deneme {
+  border: 1px solid black !important;
+}
